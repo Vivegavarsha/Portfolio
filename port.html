@@ -6,17 +6,29 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="port.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <style>
+        /* Inline styles for basic layout */
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="container">
             <nav>
                 <h1 class="logo">My Portfolio</h1>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
                 <ul class="nav-links">
-                    <li><a href="#about">Carrer Objective</a></li>
+                    <li><a href="#about">Career Objective</a></li>
                     <li><a href="#projects">Internships</a></li>
-                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#contact">Certifications</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#mehh">Contact</a></li>
                     <li><a href="#profiles">Profiles</a></li>
                 </ul>
             </nav>
@@ -33,60 +45,53 @@
 
     <section id="about" class="section">
         <div class="container">
-            <h2>Carrer Objective</h2>
+            <h2>Career Objective</h2>
             <div class="about-content">
                 <img src="vv.jpeg" alt="Profile">
-                <p>I am Pre-final year engineering student poised to launch a rewarding career journey. Armed with knowledge
-                    and a good academic background, I always bring hunger for learing and collabrative mindset. My problem
-                    solving abilities position me as a valuable addition to any team. Eager to contribute and grow in a
-                     dynamic professional environment.</p>
+                <p>I am a pre-final year engineering student poised to launch a rewarding career journey. Armed with knowledge
+                    and a good academic background, I always bring a hunger for learning and a collaborative mindset. My problem-solving abilities position me as a valuable addition to any team. Eager to contribute and grow in a dynamic professional environment.</p>
             </div>
         </div>
     </section>
 
     <section id="projects" class="section">
         <div class="container">
-            <h2>Internships</h2>
+            <h2 >Internships</h2>
             <div class="projects-grid">
                 <div class="project">
-                   
-                    <h3>Phoenix Softech-Embedded Systems and IOT</h3>
-                    <p>I had done a 3 weeks internship on Embedded systems and IOT at
-                      Phoenix Softech,Madurai. We as a team of 5 used to know about different
-                      type of sensors and their working. We also created some mini projects by using arduino.</p>
+                    <h3 class="white">Phoenix Softech - Embedded Systems and IOT</h3>
+                    <p class="white">I completed a 3-week internship on Embedded Systems and IOT at
+                      Phoenix Softech, Madurai. We, as a team of 5, explored different
+                      types of sensors and their working mechanisms. We also created mini-projects using Arduino.</p>
                 </div>
                 <div class="project">
-                    
-                    <h3>ChuckleBytes technologies-Web developement</h3>
-        <p>I have an ongoing 2 month internship at ChuckleBytes technologies. As 
-            this is a ongoing internship, I am learning modern web developement technologies using html,css,JavaScript and React </p>
+                    <h3 class="white">ChuckleBytes Technologies - Web Development</h3>
+                    <p class="white">I have an ongoing 2-month internship at ChuckleBytes Technologies. As 
+                       this is an ongoing internship, I am learning modern web development technologies using HTML, CSS, JavaScript, and React.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="projects" class="section">
+
+    <section id="contact" class="section">
         <div class="container">
-            <h2>Certification</h2>
+            <h2 class="white">Certifications</h2>
             <div class="projects-grid">
                 <div class="project">
-                   
-                    <h3>Coursera</h3>
-                    <p>Interfacing using Arduino</p>
-                    <p>HTML,CSS and JavaScript for Web Developers</p>
+                    <h3 class="white">Coursera</h3>
+                    <p class="white">Interfacing using Arduino</p>
+                    <p class="white">HTML, CSS, and JavaScript for Web Developers</p>
                 </div>
                 <div class="project">
-                    
-                    <h3>Nptel</h3>
-                    <p>Digital System Design</p>
-                    <p>Moral Thinking and Values</p>
+                    <h3 class="white">NPTEL</h3>
+                    <p class="white">Digital System Design</p>
+                    <p class="white">Moral Thinking and Values</p>
                 </div>
                 <div class="project">
-                    
-                    <h3>Training </h3>
-                    <p>IOT using LoRaWAN technology-Enthu technologies</p>
-                    <p>Inplant training on Communications- BSNL</p>
+                    <h3 class="white">Training</h3>
+                    <p class="white">IOT using LoRaWAN technology - Enthu Technologies</p>
+                    <p class="white">Inplant training on Communications - BSNL</p>
                 </div>
-                <!-- Add more projects as needed -->
             </div>
         </div>
     </section>
@@ -99,55 +104,55 @@
                 <li>Java</li>
                 <li>React</li>
                 <li>C++</li>
-                <li>Data Structures and Algorithm</li>
+                <li>Data Structures and Algorithms</li>
                 <li>Arduino</li>
-                <!-- Add more skills as needed -->
             </ul>
         </div>
     </section>
-    <div style="background: #f9f9f9; padding: 1rem; margin: 1rem 0; border: 1px solid #ddd; border-radius: 5px;">
-    <div class="contact-details"> <center>
-        <h1 class="greet-heading">My Contact Details</h1> 
-        <div class="details"> 
-            <h5 class="contact-heading">EMAIL ID:</h5> 
-            <p class="contact-text">varshalogu14@gmail.com</p> 
-        </div> 
-        <div class="details"> 
-            <h5 class="contact-heading">PHONE NUMBER:</h5> 
-            <p class="contact-text">+91 9944625957</p> 
-        </div> 
-         
-        <div class="details"> 
-            <h5 class="contact-heading">ADDRESS:</h5> 
-            <p class="contact-text">Cosmo Colony,</p> 
-            <p>Kovaipudur pirivu,</p> 
-            <p>Coimbatore-631402.</p> 
-        </div> </center>
-    </div> 
 
-</div>
-    <center><div style="background: #f9f9f9; padding: 1rem; margin: 1rem 0; border: 1px solid #ddd; border-radius: 5px;">
-        <h3><b>MY PROFILES</h3></div></b>
-            <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insert Link Example</title>
-</head>
-<p>Visit <a href="https://www.linkedin.com/in/vivega-varsha-141776280/" target="_blank" title="Go to Example Website">Linkedin</a> for more information.</p>
-<img src="https://sguru.org/wp-content/uploads/2018/02/Logo-LinkedIn-Round.png" alt="Inline Image" style="width: 30px; height: 30px;">
-</p>
-<p>Visit <a href="https://github.com/Vivegavarsha" target="_blank" title="Go to Example Website">GitHub</a> for more information.</p>
-<img src="https://pngimg.com/uploads/github/github_PNG80.png" alt="Inline Image" style="width: 30px; height: 30px;">
-</p>
-    </div>
-</center>
-</section>
+    <center><section id="mehh" class="section">
+        <h1>Contact Me</h1>
+        <div class="row">
+          <div class="col information">
+            <div class="contact-details">
+              <p><i class="fas fa-map-marker-alt"></i> </p>
+              <p><i class="fas fa-envelope"></i> Mail: varshalogu14@gmail.com</p>
+              <p><i class="fas fa-phone"></i> Phone: +91 9944625957</p>
+              <p><i class="fas fa-clock"></i> Address: Cosmo Colony,Kovaipudur,Coimbatore</p>
+            </div>          
+          </div>
+        
+        </div>
+      </section></center>
 
-    <footer><center>
-        <div class="container">
-            <p>&copy; My Portfolio| Designed by Vivega Varsha</p>
-        </div></center>
+    <center>
+        <section id="profiles" class="section">
+            <div style="background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721952000&semt=ais_user') center/cover no-repeat; padding: 1rem; margin: 1rem 0;">
+                <h3><b>MY PROFILES</b></h3>
+                <p>Visit <a href="https://www.linkedin.com/in/vivega-varsha-141776280/" target="_blank" title="LinkedIn Profile">LinkedIn</a> for more information.</p>
+                <img src="https://sguru.org/wp-content/uploads/2018/02/Logo-LinkedIn-Round.png" alt="LinkedIn Logo" style="width: 30px; height: 30px;">
+                <p>Visit <a href="https://github.com/Vivegavarsha" target="_blank" title="GitHub Profile">GitHub</a> for more information.</p>
+                <img src="https://pngimg.com/uploads/github/github_PNG80.png" alt="GitHub Logo" style="width: 30px; height: 30px;">
+            </div>
+        </section>
+    </center>
+
+    <footer>
+        <center>
+            <div class="container">
+                <p>&copy; My Portfolio | Designed by Vivega Varsha</p>
+            </div>
+        </center>
     </footer>
+
+    <script>
+        // JavaScript for toggling the mobile menu
+        const menuToggle = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
